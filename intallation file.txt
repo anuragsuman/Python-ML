@@ -1,0 +1,29 @@
+Step 1: Download pycharm community editions and install
+        https://www.jetbrains.com/pycharm/download/?section=windows
+Step 2: Download python and install
+        https://www.python.org/downloads/
+Step 3: environment variable setup in PATH variable for python
+        ----------------------------------------------------------
+        C:\Users\anura\AppData\Local\Programs\Python\Python312
+        C:\Users\anura\AppData\Local\Programs\Python\Python312\Scripts
+
+Step 4: Open pycharm terminal
+        ------------------------------------------
+        1). pip install pandas
+        2). pip install openpyxl
+        3). pip install lxml
+        4). pip install matplotlib
+        5). pip install beautifulsoup4
+        6). pip install xlsxwriter
+        7). pip install selenium
+        8). pip install pytest
+        9). pip install flask
+        ------------------------------------------
+Step 5:
+        1). download https://sqlitebrowser.org/dl/
+            DB Browser for SQLite - .zip (no installer) for 64-bit Windows
+
+        2). Go to the DB Browser for SQLite and click on "Open Database" option
+            select the file my_data_db.sqlite3
+
+

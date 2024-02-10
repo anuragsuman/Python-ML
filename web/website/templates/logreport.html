@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to mywebsite</title>
+</head>
+<body>
+
+<h1>MyLoGo</h1>
+<hr>
+<nav>
+    <a href="/">Home</a>|
+    <a href="/about">About</a>|
+    <a href="/login">Login</a>|
+    <a href="/weatherapi">Weather Report</a>|
+</nav>
+<hr>
+<h1>LOG Report</h1>
+
+<h2>Log Report Display Style - 1</h2>
+<hr>
+{{my_db_data}}
+<hr>
+
+<h2>Log Report Display Style - 2</h2>
+<hr>
+<table border="1" bgcolor="green">
+    {% for i, j, k, l in my_db_data : %}
+    <tr>
+        <td>{{i}}</td>
+        <td>{{j}}</td>
+        <td>{{k}}</td>
+        <td>{{l}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<hr>
+
+</body>
+</html>
